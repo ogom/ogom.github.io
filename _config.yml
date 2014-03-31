@@ -1,0 +1,14 @@
+markdown: redcarpet
+redcarpet:
+  extensions: ['tables', 'with_toc_data']
+pygments: true
+
+baseurl: ''
+encoding: UTF-8
+
+exclude: ['README.md', 'vendor', 'tmp']
+
+name: ogom.github.io
+copyright: 2014, ogom.github.io
+
+theme: flatly

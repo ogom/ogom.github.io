@@ -1,0 +1,5 @@
+---
+- label: Blog
+  path: "/blog"
+- label: Documentation
+  path: "/docs"
