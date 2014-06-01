@@ -40,7 +40,10 @@ nsume post 0.0.1
 ```
 
 * `Markdown`で記述ができるのでカジュアルなチェンジログにしましょう。
-    * Markdownは画像の表示にリンクも追加できます。さらに位置も調整が可能です。
+    * Markdownは画像の表示にリンクも追加できます。さらに位置やサイズの調整が可能です。
+
+<style>img[alt=octonsume] { display: block; margin-left: auto; margin-right: auto; width: 100px;} </style>
+[![octonsume](https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png)](http://nsume.org/)
 
 ### パブリックに公開
 
