@@ -1,5 +1,5 @@
 ---
 - label: Blog
   path: "/blog"
-- label: Documentation
-  path: "/docs"
+- label: Slide
+  path: "/slides"

@@ -1,0 +1,254 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <!--
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo.png"></span>
+    </article>
+  </slide>
+  -->
+
+  <slide class="title-slide segue nobackground">
+    <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>-->
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+
+<slide>
+<hgroup>
+<h1>Changelog on Blog</h1>
+</hgroup>
+<article class="none">
+<h3>チェンジログにブログのプラクティス</h3>
+<h4>そして、爆速でドキュメントをパブリックに公開</h4>
+<style>img[alt=octonsume] { display: block; margin-top: 80px; margin-left: auto; margin-right: auto; } </style>
+
+<p><img alt="octonsume" src="https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png" /></p>
+<aside class="note">
+  チェンジログを題材にRuby製のツールを紹介します。
+  最後に少しだけ、Railsが登場します。
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Profile</h1>
+</hgroup>
+<article class="none">
+<p><a href="https://github.com/ogom"><img alt="github" src="https://dl.dropboxusercontent.com/u/14690051/images/icon/GitHub.png" /> ogom</a></p>
+<p><a href="https://twitter.com/ogomr"><img alt="twitter" src="https://dl.dropboxusercontent.com/u/14690051/images/icon/Twitter.png" /> @ogomr</a></p>
+<aside class="note">
+  HTMLやJavaScriptを使わないWebアプリケーションを主に開発しています。
+  gitlab cookbook や redmine sidekiq などを公開しております。
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Commercial</h1>
+</hgroup>
+<article class="none">
+<p>Cookbook？ なにそれ？おいしいの？</p>
+<style>img[alt=chefguide] { display: block; margin-top: 80px; margin-left: auto; margin-right: auto; width: 200px; } </style>
+
+<p><a href="http://ascii.asciimw.jp/books/books/detail/978-4-04-891985-2.shtml"><img alt="chefguide" src="http://ascii.asciimw.jp/books/books/jpeg150/978-4-04-891985-2.jpg" /></a></p>
+<aside class="note">
+  食べ物っぽいけど、食品ではありません。
+  Chef meetup Kansai が近々あるので参加しては？
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Demonstration</h1>
+</hgroup>
+<article class="none">
+<ul>
+<li><a href="https://pages.github.com/">GitHub Pages</a><ul>
+<li>Websites for you and your projects.</li>
+</ul>
+</li>
+<li><a href="http://jekyllrb.com/">Jekyll</a><ul>
+<li>Transform your plain text into static websites and blogs.</li>
+</ul>
+</li>
+<li><a href="http://bootswatch.com/">Bootswatch</a><ul>
+<li>Free themes for Bootstrap</li>
+</ul>
+</li>
+</ul>
+<style>img[alt=octocat] { display: block; margin-top: 110px; margin-left: auto; margin-right: auto; width: 220px;  } </style>
+
+<p><img alt="octocat" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" /></p>
+<aside class="note">
+  LiquidはjekyllrbのサイトからShopifyを経由して紹介します。
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Changelog Example</h1>
+</hgroup>
+<article class="none">
+<p><strong><em> プロジェクトでチェンジログの使い方はいろいろです。 </em></strong></p>
+<ul>
+<li><a href="https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/">Ruby</a></li>
+<li><a href="http://www.redmine.org/projects/redmine/wiki/Changelog">Redmine</a></li>
+<li><a href="https://drupal.org/CHANGELOG.txt">Drupal</a></li>
+<li><a href="https://code.google.com/p/v8/source/browse/trunk/ChangeLog">V8</a></li>
+<li><a href="https://www.virtualbox.org/wiki/Changelog">VirtualBox</a></li>
+<li>...</li>
+<li><a href="http://jekyllrb.com/docs/history/">Jekyll</a></li>
+</ul>
+<style>img[alt=octojekyll] { display: block; margin-left: auto; margin-right: auto; width: 200px;  } </style>
+
+<p><img alt="octojekyll" src="http://jekyllrb.com/img/octojekyll.png" /></p>
+<aside class="note">
+  gitコマンドでもチェンジログのrawが生成できます。
+  git log --date=short --pretty=format:"%ad %an %s (#%h)" -10
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Format</h1>
+</hgroup>
+<article class="none">
+<p><strong><em> 書式はプロジェクトで統一されていれば、特に規定はありません。</em></strong></p>
+<ul>
+<li>Entry - 日付で変更を記録します。</li>
+<li>Item  - 変更の概要を記載します。</li>
+</ul>
+<h3>Entry Example</h3>
+<pre><code>YYYY-MM-DD  Foo Bar  &lt;foobar@example.com&gt;
+
+  * README.md: Fixed installation
+  * README.md: Added new a File
+  * Initial commit
+</code></pre>
+
+<aside class="note">
+  Jekyllを利用してチェンジログを書くとentryごとにファイルを分けることができます。
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Item English</h1>
+</hgroup>
+<article class="none">
+<p>英語でチェンジログはだいたい<code>Added</code>か<code>Fixed</code>で始まります。</p>
+<table>
+<thead>
+<tr>
+<th align="center">英語</th>
+<th align="center">過去形</th>
+<th align="left">意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Add</td>
+<td align="center">Added</td>
+<td align="left">追加</td>
+</tr>
+<tr>
+<td align="center">Fix</td>
+<td align="center">Fixed</td>
+<td align="left">修正</td>
+</tr>
+<tr>
+<td align="center">Change</td>
+<td align="center">Changed</td>
+<td align="left">変更</td>
+</tr>
+<tr>
+<td align="center">Remove</td>
+<td align="center">Removed</td>
+<td align="left">削除</td>
+</tr>
+<tr>
+<td align="center">Rename</td>
+<td align="center">Renamed</td>
+<td align="left">リネーム</td>
+</tr>
+<tr>
+<td align="center">Refactor</td>
+<td align="center">Refactored</td>
+<td align="left">リファクタリング</td>
+</tr>
+</tbody>
+</table>
+<aside class="note">
+  チェンジログのある生活を楽しみましょう。
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Thank You!</h1>
+</hgroup>
+<article class="none">
+<h3>Tips</h3>
+<p><ul class="build">
+  <li>Rails Auto Document</li>
+  <li>RSpec to API Document</li>
+  <li>Model to State Diagram</li>
+  <li>Schema to Entity Relationship</li>
+</ul></p>
+<aside class="note">
+  nsume-rails-example でrailsで爆速でAPI Documentを作成する。
+</aside>
+</article>
+</slide>
+
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
