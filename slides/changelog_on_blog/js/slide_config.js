@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Introduction',
-    subtitle: 'Less is more.',
+    title: '爆速チェンジログ',
+    subtitle: 'Ruby/Rails勉強会@関西',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.

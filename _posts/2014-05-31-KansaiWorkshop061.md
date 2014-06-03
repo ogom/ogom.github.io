@@ -5,6 +5,10 @@ title:  第61回 Ruby/Rails勉強会に発表者で参加しました。
 
 **[発表のスライド (Changelog on Blog)](http://ogom.github.io/slides/changelog_on_blog/slide.html)**
 
+<div style="width: 50%">
+<script async class="speakerdeck-embed" data-id="07a94fd0cd5f0131fa3126624a8aace7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+
 ## チェンジログを題材にRuby製のツールを紹介しました。
 
 * Ruby製のおなじみのGitHubの`GitHub Pages`にチェンジログをホスティングします。
