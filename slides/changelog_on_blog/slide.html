@@ -1,3 +1,4 @@
+
 <!--
 Google IO 2012 HTML5 Slide Template
 
@@ -52,9 +53,7 @@ URL: https://code.google.com/p/io-2012-slides
 <article class="none">
 <h3>チェンジログにブログのプラクティス</h3>
 <h4>そして、爆速でドキュメントをパブリックに公開</h4>
-<style>img[alt=octonsume] { display: block; margin-top: 80px; margin-left: auto; margin-right: auto; } </style>
-
-<p><img alt="octonsume" src="https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png" /></p>
+<p><img alt="octonsume" src="https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png" style="display:block;margin-top:80px;margin-left:auto;margin-right:auto;" width="200px" /></p>
 <aside class="note">
   チェンジログを題材にRuby製のツールを紹介します。
   最後に少しだけ、Railsが登場します。
@@ -67,8 +66,9 @@ URL: https://code.google.com/p/io-2012-slides
 <h1>Profile</h1>
 </hgroup>
 <article class="none">
-<p><a href="https://github.com/ogom"><img alt="github" src="https://dl.dropboxusercontent.com/u/14690051/images/icon/GitHub.png" /> ogom</a></p>
-<p><a href="https://twitter.com/ogomr"><img alt="twitter" src="https://dl.dropboxusercontent.com/u/14690051/images/icon/Twitter.png" /> @ogomr</a></p>
+<p><link rel="stylesheet" href="http://octicons.github.com/components/octicons/octicons/octicons.css">
+<a class="mega-octicon octicon-mark-github" href="https://github.com/ogom" style="color:black;text-decoration:none;border-bottom:none"></a> ogom</p>
+<p><a class="mega-octicon octicon-info" href="https://twitter.com/ogomr" style="color:deepskyblue;text-decoration:none;border-bottom:none"></a> @ogomr</p>
 <aside class="note">
   HTMLやJavaScriptを使わないWebアプリケーションを主に開発しています。
   gitlab cookbook や redmine sidekiq などを公開しております。
@@ -82,9 +82,7 @@ URL: https://code.google.com/p/io-2012-slides
 </hgroup>
 <article class="none">
 <p>Cookbook？ なにそれ？おいしいの？</p>
-<style>img[alt=chefguide] { display: block; margin-top: 80px; margin-left: auto; margin-right: auto; width: 200px; } </style>
-
-<p><a href="http://ascii.asciimw.jp/books/books/detail/978-4-04-891985-2.shtml"><img alt="chefguide" src="http://ascii.asciimw.jp/books/books/jpeg150/978-4-04-891985-2.jpg" /></a></p>
+<p><a href="http://ascii.asciimw.jp/books/books/detail/978-4-04-891985-2.shtml"><img alt="chefguide" src="http://ascii.asciimw.jp/books/books/jpeg150/978-4-04-891985-2.jpg" style="display:block;margin-top:80px;margin-left:auto;margin-right:auto;" width="200px" /></a></p>
 <aside class="note">
   食べ物っぽいけど、食品ではありません。
   Chef meetup Kansai が近々あるので参加しては？
@@ -111,9 +109,7 @@ URL: https://code.google.com/p/io-2012-slides
 </ul>
 </li>
 </ul>
-<style>img[alt=octocat] { display: block; margin-top: 110px; margin-left: auto; margin-right: auto; width: 220px;  } </style>
-
-<p><img alt="octocat" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" /></p>
+<p><img alt="octocat" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="display: block;margin-top:114px;margin-left:auto;margin-right:auto;" width="200px" /></p>
 <aside class="note">
   LiquidはjekyllrbのサイトからShopifyを経由して紹介します。
 </aside>
@@ -125,7 +121,7 @@ URL: https://code.google.com/p/io-2012-slides
 <h1>Changelog Example</h1>
 </hgroup>
 <article class="none">
-<p><strong><em> プロジェクトでチェンジログの使い方はいろいろです。 </em></strong></p>
+<p><strong>プロジェクトでチェンジログの使い方はいろいろです。</strong></p>
 <ul>
 <li><a href="https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/">Ruby</a></li>
 <li><a href="http://www.redmine.org/projects/redmine/wiki/Changelog">Redmine</a></li>
@@ -135,9 +131,7 @@ URL: https://code.google.com/p/io-2012-slides
 <li>...</li>
 <li><a href="http://jekyllrb.com/docs/history/">Jekyll</a></li>
 </ul>
-<style>img[alt=octojekyll] { display: block; margin-left: auto; margin-right: auto; width: 200px;  } </style>
-
-<p><img alt="octojekyll" src="http://jekyllrb.com/img/octojekyll.png" /></p>
+<p><img alt="octojekyll" src="http://jekyllrb.com/img/octojekyll.png" style="display:block;margin-left:auto;margin-right:auto;" width="186px" /></p>
 <aside class="note">
   gitコマンドでもチェンジログのrawが生成できます。
   git log --date=short --pretty=format:"%ad %an %s (#%h)" -10
@@ -150,7 +144,7 @@ URL: https://code.google.com/p/io-2012-slides
 <h1>Format</h1>
 </hgroup>
 <article class="none">
-<p><strong><em> 書式はプロジェクトで統一されていれば、特に規定はありません。</em></strong></p>
+<p><strong>書式はプロジェクトで統一されていれば、特に規定はありません。</strong></p>
 <ul>
 <li>Entry - 日付で変更を記録します。</li>
 <li>Item  - 変更の概要を記載します。</li>
