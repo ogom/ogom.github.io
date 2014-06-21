@@ -46,8 +46,7 @@ nsume post 0.0.1
 * `Markdown`で記述ができるのでカジュアルなチェンジログにしましょう。
     * Markdownは画像の表示にリンクも追加できます。さらに位置やサイズの調整が可能です。
 
-<style>img[alt=octonsume] { display: block; margin-left: auto; margin-right: auto; width: 100px;} </style>
-[![octonsume](https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png)](http://nsume.org/)
+[![octonsume](https://raw.github.com/ogom/nsume/master/lib/generators/assets/img/octonsume.png){:width="200px" style="display:block;margin-left:auto;margin-right:auto"}](http://nsume.org/)
 
 ### パブリックに公開
 
@@ -70,7 +69,7 @@ git push -u origin gh-pages
 nsume up
 ```
 
-* `nsume up --provider=aws`で`s3`で公開する機能も実装できそうですね。
+* `nsume up --provider=aws`で`s3`で公開する機能も実装できそうです。
 
 
 ## チェンジログの書式
