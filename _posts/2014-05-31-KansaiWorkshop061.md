@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  第61回 Ruby/Rails勉強会に発表者で参加しました。
+title:  第61回 Ruby/Rails勉強会@関西
 ---
 
 **[発表のスライド (Changelog on Blog)](http://ogom.github.io/slides/changelog_on_blog/slide.html)**
