@@ -1,0 +1,151 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <!--
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo.png"></span>
+    </article>
+  </slide>
+  -->
+
+  <slide class="title-slide segue nobackground">
+    <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>-->
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  
+<slide>
+<hgroup>
+<h1>Redmine with Sidekiq</h1>
+</hgroup>
+<article class="none">
+<h3>チケット駆動開発は非同期処理だから集中とリズム</h3>
+<h3>ウェブアプリケーションにも非同期で集中とリズム</h3>
+<p><img alt="www" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/its/redmine/www.jpg" style="margin-top:80px;margin-left:540px;margin-right:auto;" width="120px" /></p>
+<p><a href="http://www.redmine.org/plugins/redmine_sidekiq"><img alt="sidekiq" src="http://www.redmine.org/attachments/download/9639" style="display:block;margin-top:-120px;margin-left:auto;margin-right:auto;" width="100px" /></a></p>
+<aside class="note">
+  Redmine Sidekiqの紹介
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Profile</h1>
+</hgroup>
+<article class="none">
+<p><link rel="stylesheet" href="http://octicons.github.com/components/octicons/octicons/octicons.css">
+<a class="mega-octicon octicon-mark-github" href="https://github.com/ogom" style="color:black;text-decoration:none;border-bottom:none"></a> ogom</p>
+<p><a class="mega-octicon octicon-info" href="https://twitter.com/ogomr" style="color:deepskyblue;text-decoration:none;border-bottom:none"></a> @ogomr</p>
+<h3>Redmineのプラグインを開発する手順を紹介</h3>
+<ul>
+<li><a href="http://qiita.com/ogomr/items/4f77f851e3936ef81a69">Make Redmine Plugin</a></li>
+<li><a href="http://qiita.com/ogomr/items/fe139ceb93ad13794323">MVC of Redmine Plugin in Bootstrap</a></li>
+</ul>
+<h3>RedmineをPaaSにデプロイする手順を紹介</h3>
+<ul>
+<li><a href="http://qiita.com/ogomr/items/887f93ed6fe08539ab59">Redmine on MOGOK</a></li>
+<li><a href="http://qiita.com/ogomr/items/53549e845ccf7a210663">Redmine on Heroku</a></li>
+</ul>
+<aside class="note">
+  Redmine関連の活動
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Commercial</h1>
+</hgroup>
+<article class="none">
+<p>チケット駆動開発 TiDD (Ticket-driven development)</p>
+<p><a href="http://books.shoeisha.co.jp/book/b93629.html"><img alt="tidd" src="http://books.shoeisha.co.jp//images/book/93629.jpg" style="display:block;margin-top:80px;margin-left:auto;margin-right:auto;" width="200px" /></a></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Introduction</h1>
+<h2>Redmine Sidekiq Plugin</h2>
+</hgroup>
+<article class="none">
+<h3>非同期処理の<a href="http://sidekiq.org/">Sidekiq</a>をトップメニューに表示します。</h3>
+<ul>
+<li>システム管理者のみが<code>Sidekiq</code>の管理画面を表示できます。</li>
+</ul>
+<h3><a href="https://github.com/jbox-web/redmine_git_hosting">Redmine Git Hosting Plugin</a>で利用されています。</h3>
+<ul>
+<li><a href="https://about.gitlab.com/">Gitlab</a>の<code>Background Jobs</code>にも<code>Sidekiq</code>が利用されています。</li>
+</ul>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Demonstration</h1>
+<h2>Redmine &amp; Sidekiq</h2>
+</hgroup>
+<article class="none">
+<h3>非同期処理を確認するための<code>Sandbox</code>ページがあります。</h3>
+<ul>
+<li><code>/sidekiq/sandbox</code>です。</li>
+</ul>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Thank You!</h1>
+</hgroup>
+<article class="none">
+<h3>Tips</h3>
+<p><ul class="build">
+  <li>Sidekiqは<a href="https://github.com/tomykaira/clockwork">Clockwork</a>と合わせて<code>cron</code>の代替に使えます。</li>
+  <li><a href="http://qiita.com/ogomr/items/27e9fc7af5b978b5ced6">Clockwork Cheat Sheet</a>あります。</li>
+</ul></p>
+</article>
+</slide>
+
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
