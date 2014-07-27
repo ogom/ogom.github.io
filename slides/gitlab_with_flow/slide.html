@@ -1,0 +1,461 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <!--
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo.png"></span>
+    </article>
+  </slide>
+  -->
+
+  <slide class="title-slide segue nobackground">
+    <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>-->
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  
+<slide>
+<hgroup>
+<h1>GitLab with Flow</h1>
+</hgroup>
+<article class="none">
+<p><link rel="stylesheet" href="http://octicons.github.com/components/octicons/octicons/octicons.css"></p>
+<h3>進化するGitHubクローンはオープンソース開発フレームワーク</h3>
+<h3>マージリクエスト <a class="mega-octicon octicon-git-pull-request" href="" style="color:gray;text-decoration:none;border-bottom:none"></a> でコラボレーションからの尊敬と信頼</h3>
+<p><img alt="gitlab_logo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab_logo.png" style="display:block;margin-top:200px;margin-left:auto;margin-right:auto;" width="380px" /></p>
+<p><img alt="gitlab_flow_logo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/gitlab_flow.png" style="position:absolute;top:272px;left:280px;" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Profile</h1>
+</hgroup>
+<article class="none">
+<p><a class="mega-octicon octicon-mark-github" href="https://github.com/ogom" style="color:black;text-decoration:none;border-bottom:none"></a> ogom</p>
+<p><a class="mega-octicon octicon-mention" href="https://twitter.com/ogomr" style="color:deepskyblue;text-decoration:none;border-bottom:none"></a> ogomr</p>
+<h3>GitLab Cookbookの開発に貢献</h3>
+<ul>
+<li><a href="https://gitlab.com/gitlab-org/cookbook-gitlab">GitLab.org Cookbook</a></li>
+</ul>
+<h3>オレオレGitLabの手順を紹介</h3>
+<ul>
+<li><a href="http://qiita.com/ogomr/items/1c1042976930fb888a8e">GitLab Cookbook with SSL</a></li>
+</ul>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Commercial</h1>
+</hgroup>
+<article class="none">
+<p>GitHub実践入門 「Pull Requestによる開発の変革」</p>
+<p><a href="http://gihyo.jp/book/2014/978-4-7741-6366-6"><img alt="github_book" src="http://image.gihyo.co.jp/assets/images/cover/2014/thumb/TH160_9784774163666.jpg" style="display:block;margin-top:80px;margin-left:auto;margin-right:auto;" width="200px" /></a></p>
+<aside class="note">
+  Gitの入門にちょうどいい
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2 style="position:absolute;top:300px;left:300px;"><a class="mega-octicon octicon-tools" href="" style="color:darkcyan;text-decoration:none;border-bottom:none"></a> GitLab 7.1.0</h2>
+</hgroup>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Admin area</h1>
+</hgroup>
+<article class="none">
+<p><img alt="admin_area" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/admin_area.png" style="display:block;margin-left:auto;margin-right:auto;" width="900px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Project</h1>
+</hgroup>
+<article class="none">
+<p><img alt="project_roomba" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/project_roomba.png" style="display:block;margin-left:auto;margin-right:auto;" width="900px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>User</h1>
+</hgroup>
+<article class="none">
+<p><img alt="user_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/user_momo.png" style="display:block;margin-left:auto;margin-right:auto;" width="900px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Group</h1>
+</hgroup>
+<article class="none">
+<p><img alt="group_cats" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/group_cats.png" style="display:block;margin-left:auto;margin-right:auto;" width="900px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Background Jobs</h1>
+</hgroup>
+<article class="none">
+<p><img alt="background_jobs" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/background_jobs.png" style="display:block;margin-left:auto;margin-right:auto;" width="900px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Project services</h1>
+</hgroup>
+<article class="none">
+<p><img alt="services" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/services.png" style="display:block;margin-left:auto;margin-right:auto;" width="500px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2 style="position:absolute;top:300px;left:300px;"><a class="mega-octicon octicon-git-compare" href="" style="color:darkcyan;text-decoration:none;border-bottom:none"></a> Flow Styles</h2>
+</hgroup>
+</slide>
+
+<slide>
+<hgroup>
+<h1>git-flow</h1>
+</hgroup>
+<article class="none">
+<p><a href="http://nvie.com/posts/a-successful-git-branching-model/"><img alt="git-logo" src="https://dl.dropboxusercontent.com/u/14690051/images/logo/Git_Logo.png" style="position:absolute;top:70px;right:90px;" width="120px" /></a></p>
+<p>複数のブランチに目的とルールを持たせて運用</p>
+<table>
+<thead>
+<tr>
+<th align="center">Branches</th>
+<th align="left">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">master</td>
+<td align="left">リリースできる状態。リリースにタグをつける。他のブランチからマージする。</td>
+</tr>
+<tr>
+<td align="center">develop</td>
+<td align="left">開発作業の中心。<code>feature</code>や<code>release</code>にマージする。</td>
+</tr>
+<tr>
+<td align="center">feature</td>
+<td align="left">機能追加の作業。<code>develop</code>から分岐して<code>develop</code>にマージする。</td>
+</tr>
+<tr>
+<td align="center">release</td>
+<td align="left">リリースの準備作業。<code>develop</code>から分岐して<code>master</code>と<code>develop</code>にマージする。</td>
+</tr>
+<tr>
+<td align="center">hotfix</td>
+<td align="left">リリース後の緊急作業。<code>master</code>から分岐して<code>master</code>と<code>develop</code>にマージする。</td>
+</tr>
+</tbody>
+</table>
+<p><a class="mega-octicon octicon-info" href="" style="color:gray;text-decoration:none;border-bottom:none;margin-top:40px;"></a> <a href="http://danielkummer.github.io/git-flow-cheatsheet/">git-flow Cheat Sheet</a> (<a href="http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html">日本語</a>)</p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>GitHub Flow</h1>
+</hgroup>
+<article class="none">
+<p><a href="https://help.github.com/articles/github-flow-in-the-browser"><img alt="octocat" src="https://dl.dropboxusercontent.com/u/14690051/images/logo/Octocat.jpg" style="position:absolute;top:60px;right:210px;" width="80px" /></a></p>
+<p><img alt="github-logo" src="https://dl.dropboxusercontent.com/u/14690051/images/logo/GitHub_Logo.png" style="position:absolute;top:60px;right:60px;" width="160px" /></p>
+<p>１つのブランチ(<code>master</code>)をリリースできる状態に維持して運用</p>
+<table>
+<thead>
+<tr>
+<th align="left">Works</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Create a branch</td>
+<td><code>master</code>から分岐して、ブランチを作成する。</td>
+</tr>
+<tr>
+<td align="left">Add commits</td>
+<td>開発作業の中心。変更のコミットを追加する。</td>
+</tr>
+<tr>
+<td align="left">Open a Pull Request</td>
+<td><code>master</code>にプルリクエストを送信する。</td>
+</tr>
+<tr>
+<td align="left">Discuss and Review</td>
+<td>変更の内容を議論して、コードのレビューをする。</td>
+</tr>
+<tr>
+<td align="left">Merge and Deploy</td>
+<td><code>master</code>にマージして。リリースする。</td>
+</tr>
+</tbody>
+</table>
+<p><a class="mega-octicon octicon-info" href="" style="color:gray;text-decoration:none;border-bottom:none;margin-top:40px;"></a> <a href="https://guides.github.com/introduction/flow/">Understanding the GitHub Flow</a></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>GitLab Flow</h1>
+</hgroup>
+<article class="none">
+<p><img alt="gitlab_logo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab_logo.png" style="position:absolute;top:60px;right:80px;" width="200px" /></p>
+<p><code>master</code>ブランチと<code>stable</code>ブランチを平行で開発する運用</p>
+<table>
+<thead>
+<tr>
+<th align="center">Branches</th>
+<th align="left">説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">master</td>
+<td align="left">開発作業の中心。他のブランチからマージする。</td>
+</tr>
+<tr>
+<td align="center">feature</td>
+<td align="left">機能追加の作業。<code>master</code>から分岐して<code>master</code>にマージする。</td>
+</tr>
+<tr>
+<td align="center">stable</td>
+<td align="left">リリースできる状態。リリースにタグをつける。他のブランチからマージする。</td>
+</tr>
+<tr>
+<td align="center">hotfix</td>
+<td align="left">リリース後の緊急作業。<code>stable</code>から分岐して<code>stable</code>と<code>master</code>にマージする。</td>
+</tr>
+</tbody>
+</table>
+<p><a class="mega-octicon octicon-info" href="" style="color:gray;text-decoration:none;border-bottom:none;margin-top:40px;"></a> git-flowから<code>develop</code>ブランチを除いてGitHub Flowと複合</p>
+<p><a class="mega-octicon octicon-info" href="" style="color:gray;text-decoration:none;border-bottom:none;"></a> <code>master</code>、<code>feature</code> と<code>stable</code>、<code>hotfix</code> にGitHub Flowを適応</p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2 style="position:absolute;top:300px;left:300px;"><a class="mega-octicon octicon-git-branch" href="" style="color:darkcyan;text-decoration:none;border-bottom:none"></a> GitLab Works</h2>
+</hgroup>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Creating a project</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_creating_project" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/creating_project.png" style="position:absolute;top:332px;left:80px;" /></p>
+<p><img alt="gitlab_new_project" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/new_project.png" style="position:absolute;top:160px;right:120px;" width="500px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Create a feature branch</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_create_feature_branch" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/create_feature_branch.png" style="position:absolute;top:332px;left:80px;" /></p>
+<p><img alt="gitlab_forked" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/forked.png" style="position:absolute;top:180px;right:100px;" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Add commits</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_add_feature_commits" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/add_feature_commits.png" style="position:absolute;top:332px;left:80px;" /></p>
+<p><img alt="gitlab_commit_updated_readme" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/commit_updated_readme.png" style="position:absolute;top:180px;right:100px;" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Open a Merge Request</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_open_merge_request_to_master" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/open_merge_request_to_master.png" style="position:absolute;top:332px;left:80px;" /></p>
+<p><img alt="gitlab_merge_request_from_feature" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/merge_request_from_feature.png" style="position:absolute;top:180px;right:100px;" width="300px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" /></p>
+<aside class="note">
+  Discuss and review
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Merge and deploy</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_merge_and_deploy_from_master" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/merge_and_deploy_from_master.png" style="position:absolute;top:332px;left:80px;" /></p>
+<p><img alt="gitlab_merge_request_to_feature" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/merge_request_to_feature.png" style="position:absolute;top:160px;right:100px;" width="300px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Create a stable branch</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_create_stable_branch" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/create_stable_branch.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_new_branch" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/new_branch.png" style="position:absolute;top:180px;right:100px;" width="300px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Create a hotfix branch</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_create_hotfix_branch" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/create_hotfix_branch.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_forked" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/forked.png" style="position:absolute;top:180px;right:100px;" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" />
+<img alt="cat_sora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/sora.jpg" style="position:absolute;left:220px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Add commits</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_add_hotfix_commits" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/add_hotfix_commits.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_commit_fixed_readme" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/commit_fixed_readme.png" style="position:absolute;top:180px;right:80px;" width="360px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" />
+<img alt="cat_sora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/sora.jpg" style="position:absolute;left:220px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Open a Merge Request</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_open_merge_request_to_stable" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/open_merge_request_to_stable.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_merge_request_from_hotfix" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/merge_request_from_hotfix.png" style="position:absolute;top:180px;right:100px;" width="300px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" />
+<img alt="cat_sora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/sora.jpg" style="position:absolute;left:220px;bottom:100px;" width="60px" /></p>
+<aside class="note">
+  Discuss and review
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Merge and deploy</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_merge_and_deploy_from_stable" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/merge_and_deploy_from_stable.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_merge_request_to_hotfix" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/merge_request_to_hotfix.png" style="position:absolute;top:140px;right:100px;" width="300px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" />
+<img alt="cat_sora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/sora.jpg" style="position:absolute;left:220px;bottom:100px;" width="60px" />
+<img alt="cat_syara" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/syara.jpg" style="position:absolute;left:280px;bottom:100px;" width="60px" /></p>
+<aside class="note">
+  master and stable
+</aside>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h2>Continuous</h2>
+</hgroup>
+<article class="none">
+<p><img alt="flow_continuous" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/continuous.png" style="position:absolute;top:200px;left:80px;" /></p>
+<p><img alt="gitlab_Activity" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab/Activity.png" style="position:absolute;top:200px;right:60px;" width="320px" /></p>
+<p><img alt="cat_momo" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/momo.jpg" style="position:absolute;left:100px;bottom:100px;" width="60px" />
+<img alt="cat_kuro" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kuro.jpg" style="position:absolute;left:160px;bottom:100px;" width="60px" />
+<img alt="cat_sora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/sora.jpg" style="position:absolute;left:220px;bottom:100px;" width="60px" />
+<img alt="cat_syara" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/syara.jpg" style="position:absolute;left:280px;bottom:100px;" width="60px" />
+<img alt="cat_syam" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/syam.jpg" style="position:absolute;left:340px;bottom:100px;" width="60px" />
+<img alt="cat_kiji" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/kiji.jpg" style="position:absolute;left:400px;bottom:100px;" width="60px" />
+<img alt="cat_tora" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/tora.jpg" style="position:absolute;left:460px;bottom:100px;" width="60px" />
+<img alt="cat_tama" src="https://dl.dropboxusercontent.com/u/14690051/images/cats/tama.jpg" style="position:absolute;left:520px;bottom:100px;" width="60px" /></p>
+</article>
+</slide>
+
+<slide>
+<hgroup>
+<h1>Thank You!</h1>
+</hgroup>
+<article class="none">
+<p><img alt="gitlab_logo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/gitlab_logo.png" style="position:absolute;top:232px;left:142px;" width="280px" /></p>
+<aside class="note">
+![gitlab_logo](https://dl.dropboxusercontent.com/u/14690051/images/logo/gitlab_logo.png){:width="180px" style="position:absolute;top:232px;left:246px;"}
+</aside>
+
+<p><img alt="gitlab_flow_logo" src="https://dl.dropboxusercontent.com/u/14690051/images/notes/scm/git/flow/gitlab_flow.png" style="position:absolute;top:206px;left:215px;" /></p>
+</article>
+</slide>
+
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
