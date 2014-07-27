@@ -12,7 +12,7 @@ title:  第61回 Ruby/Rails勉強会@関西
 ## チェンジログを題材にRuby製のツールを紹介しました。
 
 * Ruby製のおなじみのGitHubの`GitHub Pages`にチェンジログをホスティングします。
-    * `Gitlab`もRuby製ですね。
+    * `GitLab`もRuby製ですね。
 * GitHub PagesnにはRuby製の静的サイトを生成ツールの`Jekyll`が利用できます。
     * Jekyllは`2系`がリリースされています。
 * JekyllではRuby製のテンプレートエンジンの`Liquid`が使われています。
